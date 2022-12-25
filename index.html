@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js"></script>
+    <title>Daily UI - 002</title>
+  </head>
+  <body>
+    <h1>Shopping Cart</h1>
+    <img src="./images/Arrow 1.svg" class="arrow" />
+    <div class="big_container">
+      <div class="medium_container" id="summary_desktop">
+        <h1 class="summary">Order Summary</h1>
+        <div class="container">
+          <div class="item_price">
+            <p class="left">Items:</p>
+            <p class="right">$500.00</p>
+          </div>
+          <div class="shipping">
+            <p class="left">Shipping & Handling:</p>
+            <p class="right">$0.00</p>
+          </div>
+          <hr class="order_line" />
+          <div class="before_tax">
+            <p class="left">Total before tax:</p>
+            <p class="right">$260.00</p>
+          </div>
+          <div class="gst_hst">
+            <p class="left">Estimated GST/HST:</p>
+            <p class="right">$65.00</p>
+          </div>
+          <hr class="order_line" />
+          <div class="order_total">
+            <p class="left_big">Order Total</p>
+            <p class="right">$565.00</p>
+          </div>
+        </div>
+        <a href="./pages/checkout.html">
+          <button class="main_button" id="button_desktop">Checkout</button>
+        </a>
+      </div>
+      <div class="shopping_cart_items">
+        <h1>Shopping Cart</h1>
+        <div class="item">
+          <div class="left_section">
+            <div class="item_backgroud">
+              <img src="./images/af1.svg" />
+            </div>
+          </div>
+          <div class="center_section">
+            <h2 class="item_name">Nike Air Force 1 '07</h2>
+            <p class="colour">Colour: White</p>
+            <p class="size">Size: 10.5</p>
+            <p class="price">$120.00</p>
+          </div>
+          <div class="right_section">
+            <div class="amount">
+              <p class="up">-</p>
+              <p class="amount">1</p>
+              <p class="down">+</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="left_section">
+            <div class="item_backgroud">
+              <img src="./images/jordan.svg" />
+            </div>
+          </div>
+          <div class="center_section">
+            <h2 class="item_name">Jumpman Two Trey</h2>
+            <p class="colour">Colour: Black</p>
+            <p class="size">Size: 10</p>
+            <p class="price">$200.00</p>
+          </div>
+          <div class="right_section">
+            <div class="amount">
+              <p class="up">-</p>
+              <p class="amount">1</p>
+              <p class="down">+</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="left_section">
+            <div class="item_backgroud">
+              <img src="./images/vapor.svg" />
+            </div>
+          </div>
+          <div class="center_section">
+            <h2 class="item_name">Nike Mercurial 15</h2>
+            <p class="colour">Colour: Copper</p>
+            <p class="size">Size: 11</p>
+            <p class="price">$180.00</p>
+          </div>
+          <div class="right_section">
+            <div class="amount">
+              <p class="up">-</p>
+              <p class="amount">1</p>
+              <p class="down">+</p>
+            </div>
+          </div>
+        </div>
+        <hr class="cart_line" />
+        <p class="subtotal"><span class="total">Total -</span> $500.00</p>
+        <a href="./pages/checkout.html">
+          <button class="main_button" id="button_mobile">Checkout</button>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
